@@ -1,0 +1,67 @@
+framework - thi is the final autcom of the complete concept
+
+cucumber as a tool
+cucumber/BDD/gherkin as a framework
+
+group id - it means the name of the organization
+artifact id - it means the name of the project
+
+we created maven project
+pom.xml file is the configuration file where we will ass all the dependencies
+pom.xml is the file we will use to execute our code in the end of the framework
+pom.xml is the file we will use to generate the report
+
+in our project we get src folder in which we get main and test
+main - the code we write to develop the application, we write it in main
+test - the code we write to test the application, we write it in test
+
+we delete main folder because we will work with test
+
+in the test folder -
+we get java - to keep all teh java stuff
+we get resources - to keep all the non java stuff
+
+java
+selenium
+cucumber
+apache poi
+commons io
+
+
+Class 2-
+Note: in selenium we dont have reporting option, no execution cantro, no standard formewrok of writing the code.
+to achieve all these we need to intergrate our scripts with
+additional tools and structure (framework)
+
+Cucumber is tool which allows us to write scenarios in plian english
+text called ghekin which follow BBD (behaviorl driven development)
+
+in gharkin we have to follow these are :-
+Given - pre condition
+When - actions
+Then - expected result
+And - supporting tag
+like:
+
+Scenario - login
+Given user is navigated to HRMS application
+When user enters admin username and password
+And user click on login button
+Then admin user is successfully logged in
+
+User Story  - Employee search
+Scenario - search employee by id
+   Given user is navigated to HRMS application
+   When user enters admin username and password
+   And user click on login button
+   Then admin user is successfully logged in
+   When user click on PIM option
+   And user click on employee List option
+   When user enters employee id
+   And user click on search button
+   Then user should be able to see employee details
+
+
+
+
+
